@@ -1,0 +1,32 @@
+{
+    "name": "okami-chen/table-shard",
+    "type": "library",
+    "keywords": ["laravel"],
+    "homepage": "https://github.com/OkamiChen/TableShard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "陈德华",
+            "email": "yunchat@yeah.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "OkamiChen\\TableShard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\Admin\\AdminServiceProvider"
+            ],
+            "aliases": {
+                "Admin": "Encore\\Admin\\Facades\\Admin"
+            }
+        }
+    }
+}
