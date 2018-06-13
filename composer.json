@@ -1,8 +1,8 @@
 {
-    "name": "OkamiChen/TableShard",
+    "name": "okami-chen/table-shard",
     "type": "library",
     "keywords": ["laravel"],
-    "homepage": "https://github.com/OkamiChen/TableShard",
+    "homepage": "https://github.com/okami-chen/table-shard",
     "license": "MIT",
     "authors": [
         {
