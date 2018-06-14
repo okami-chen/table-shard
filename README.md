@@ -1,5 +1,5 @@
 # TableShard
-## 例子
+## 创建
 ```php
 use Illuminate\Database\Eloquent\Model;
 
@@ -11,4 +11,8 @@ class User extends Model {
     use TableShard;
 
 }
+```
+## 查询
+```php
+User::where(['user_id'=>18])->first();
 ```
