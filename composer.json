@@ -20,7 +20,7 @@
             "OkamiChen\\TableShard\\": "src/"
         }
     },
-    "suggests": {
+    "suggest": {
         "tamayo/laravel-scout-elastic": "An Elasticsearch Client"
     },
     "extra": {
