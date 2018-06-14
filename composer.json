@@ -2,6 +2,7 @@
     "name": "okami-chen/table-shard",
     "type": "library",
     "keywords": ["laravel"],
+    "description": "laravel table shard compents",
     "homepage": "https://github.com/okami-chen/table-shard",
     "license": "MIT",
     "authors": [
